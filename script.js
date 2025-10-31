@@ -15,9 +15,9 @@ testimonial3.textContent = "I've tried many finance apps, but SapaShield underst
 cardTextCont3.append(testimonial3);
 
 
-testimonial1.className='testimonial'
-testimonial2.className='testimonial'
-testimonial3.className='testimonial'
+testimonial1.className = 'testimonial'
+testimonial2.className = 'testimonial'
+testimonial3.className = 'testimonial'
 
 let featuresCardTextCont1 = document.querySelector('.card1');
 let featuresCardTextCont2 = document.querySelector('.card2');
@@ -53,12 +53,30 @@ let featuresbody4 = document.createElement('p');
 featuresbody4.textContent = 'Get valuable insights to help you make better financial decisions.'
 featuresCardTextCont4.append(featuresbody4);
 
-featuresTitle1.className='testimonial';
-featuresTitle2.className='testimonial';
-featuresTitle3.className='testimonial';
-featuresTitle4.className='testimonial';
-featuresbody1.className='testimonial';
-featuresbody2.className='testimonial';
-featuresbody3.className='testimonial';
-featuresbody4.className='testimonial';
+featuresTitle1.className = 'testimonial';
+featuresTitle2.className = 'testimonial';
+featuresTitle3.className = 'testimonial';
+featuresTitle4.className = 'testimonial';
+featuresbody1.className = 'testimonial';
+featuresbody2.className = 'testimonial';
+featuresbody3.className = 'testimonial';
+featuresbody4.className = 'testimonial';
 
+
+let backToTopBtn = document.querySelector('#back_to_top');
+
+
+window.onscroll = function () {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        backToTopBtn.style.display = 'block';
+    }
+    else {
+        backToTopBtn.style.display = 'none';
+    }
+}
+backToTopBtn.onclick = function () {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}

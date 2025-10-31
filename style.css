@@ -91,6 +91,23 @@ footer a{
     --bs-breakpoint-xl: 1200px;
     --bs-breakpoint-xxl: 1400px;
 }
+.back_to_top{
+    transition: 0.3s ease-in-out;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}
+.back_to_top:hover{
+    background-color: rgb(0, 255, 208) !important;
+}
+.back_to_top:hover i{
+    color: black !important;
+}
+.whatsappicon{
+    position: fixed;
+    bottom: 80px;
+    right: 7px;
+}
 
 @media (min-width: 1000px){
     h1{
