@@ -29,23 +29,36 @@ featuresTitle1.textContent = 'Emergency Fund Protection'
 featuresCardTextCont1.append(featuresTitle1);
 
 let featuresbody1 = document.createElement('p');
-featuresbody1.textContent = 'Emergency Fund Protection'
+featuresbody1.textContent = 'Automatically save for unexpected expenses and get interest on your savings.'
 featuresCardTextCont1.append(featuresbody1);
 
 let featuresTitle2 = document.createElement('h5');
 featuresTitle2.textContent = 'Smart Budgeting Tools'
 featuresCardTextCont2.append(featuresTitle2);
+let featuresbody2 = document.createElement('p');
+featuresbody2.textContent = 'Track your spending pattern and get personalised information.'
+featuresCardTextCont2.append(featuresbody2);
 
 let featuresTitle3 = document.createElement('h5');
 featuresTitle3.textContent = 'Goal-based Saving'
 featuresCardTextCont3.append(featuresTitle3);
+let featuresbody3 = document.createElement('p');
+featuresbody3.textContent = 'Create savings goals and watch your money grow toward your dreams.'
+featuresCardTextCont3.append(featuresbody3);
 
 let featuresTitle4 = document.createElement('h5');
 featuresTitle4.textContent = 'Financial Insights'
 featuresCardTextCont4.append(featuresTitle4);
+let featuresbody4 = document.createElement('p');
+featuresbody4.textContent = 'Get valuable insights to help you make better financial decisions.'
+featuresCardTextCont4.append(featuresbody4);
 
 featuresTitle1.className='testimonial';
 featuresTitle2.className='testimonial';
 featuresTitle3.className='testimonial';
 featuresTitle4.className='testimonial';
+featuresbody1.className='testimonial';
+featuresbody2.className='testimonial';
+featuresbody3.className='testimonial';
+featuresbody4.className='testimonial';
 

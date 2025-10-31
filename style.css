@@ -1,7 +1,3 @@
-.navbr {
-
-}
-
 .navbar-collapse {
     flex-grow: 0;
     flex-basis: 100%;
@@ -83,4 +79,40 @@ footer a{
 }
 .testimonial{
     color: white;
+}
+.features_card{
+    height: 100% !important;
+}
+:root {
+    --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px;
+}
+
+@media (min-width: 1000px){
+    h1{
+        font-size: 70px !important;
+    }
+
+}
+@media (max-width: 992px){
+    
+
+}
+@media (max-width: 600px){
+    nav .btn{
+        font-size: 10px !important;
+    }
+
+}
+@media (max-width: 380px){
+    nav, .navbar-brand{
+        font-size: 13px !important;
+    }
+    h1, h2{
+        font-size: 30px !important;
+    }
 }
