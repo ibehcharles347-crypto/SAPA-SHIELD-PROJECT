@@ -1,0 +1,86 @@
+.navbr {
+
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.bg-green{
+    background-color: rgb(0, 255, 208) !important;
+}
+.white{
+    color: white !important;
+}
+.green{
+    color: rgb(0, 255, 208) !important;
+}
+.active{
+    color: rgb(0, 255, 208) !important;
+}
+.bg-nav{
+    background-color: rgb(13, 16, 23) !important;
+}
+#hero{
+    height: 100vh;
+}
+.border-green{
+    border: thin solid rgb(0, 255, 208) !important;
+}
+.userimg{
+    position: relative;
+}
+.userimg1{
+    border-radius: 50%;
+    position: absolute;
+    top: -18px;
+}
+.userimg3{
+    left: 20px;
+    z-index: 1;
+}
+.userimg4{
+    left: 40px;
+    z-index: 1;
+}
+.userimg5{
+    left: 60px;
+    z-index: 1;
+}
+.userimg6{
+    left: 80px;
+    z-index: 1;
+}
+.users p {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+}
+.hero_desc h1{
+    font-size: 50px;
+}
+.app_download_text h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.app_download_text p{
+    margin-bottom: 15px;
+}
+.app_pt{
+    margin-top: 20px;
+}
+footer a{
+    color: white !important;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.hero_img{
+    overflow-x: hidden;
+}
+.hero_desc{
+
+}
+.testimonial{
+    color: white;
+}
